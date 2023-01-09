@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Ubuntu', Verdana, Tahoma, sans-serif;
 }
 .person {
   background: #eeeeee;
   width: 17rem;
+  height: 15rem;
   padding: 1rem;
   margin: 2rem auto;
   border-radius: 0.3rem;
   text-align: center;
   transition: all 0.3s linear;
+  /* transition-duration: 500ms; */
 }
 .person:hover {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);

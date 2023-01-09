@@ -23,7 +23,8 @@ const PersonList = () => {
           tempora!
         </p>
       </Person>
-      <Person img="61" name="david" job="the boss" gender="men" />
+      <Person img="61" name="david" job="CEO" gender="men" />
+      <Person img="75" name="juan" job="manager" gender="men" />
     </section>
   )
 }
